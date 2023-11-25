@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Аукционы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231125130122">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="header-top__container">
+					<div class="header-top__col">
+						<a href="/" class="header-top__logo logo logo_brown"><img src="img/logo_brown.svg" alt="Logo"></a>
+						<a href="/" class="header-top__logo logo logo_white"><img src="img/logo_white.svg" alt="Logo"></a>
+						<div class="header-top__lang lang">
+							<button class="lang__btn" type="button">En</button>
+							<ul class="lang__submenu">
+								<li><a href="">Ru</a></li>
+								<li><a href="">De</a></li>
+							</ul>
+						</div>
+						<a href="" class="header-top__wp _icon-wapp"></a>
+					</div>
+					<div class="header-top__col">
+						<button class="_icon-search btn-search" type="button"></button>
+						<a href="" class="header-top__tel">+7 (931) 533-22-15</a>
+					</div>
+					<div class="header-top__col">
+						<a href="" class="header-top__link">Задать вопрос</a>
+						<a href="" class="header-top__link">Вход</a>
+					</div>
+					<div class="header-top__col">
+						<a href="" class="header-top__link">регистрация</a>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="header-middle__container">
+					<a href="/" class="header-middle__logo logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture></a>
+					<form action="#" class="header-middle__search search-box" data-da=".header-top__container, 767.98, 767.98">
+						<input class="search-box__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск по работам и художникам">
+						<button class="search-box__button _icon-search" type="submit"></button>
+					</form>
+					<div class="header-middle__faw fav" data-da=".header-top__col:nth-child(3), 767.98">
+						<span class="fav__icon _icon-star"></span>
+						<small class="fav_num">6</small>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="header-bottom__container">
+					<div class="header-bottom__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Аукционы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Галереи</a></li>
+								<li class="menu__item"><a href="#" class="menu__link" data-parent="1">Купить</a></li>
+								<li class="menu__item"><a href="#" class="menu__link" data-parent="2">Продать</a></li>
+								<li class="menu__item" data-da=".mobile-menu, 767.98,first"><a href="#" class="menu__link">О
+										компании</a></li>
+								<li class="menu__item" data-da=".mobile-menu, 767.98,2"><a href="#" class="menu__link">Контакты</a></li>
+							</ul>
+							<ul class="mobile-menu">
+								<li class="mobile-menu__item"><a href="" class="mobile-menu__link">Войти</a></li>
+								<li class="mobile-menu__item"><a href="" class="mobile-menu__link">English version</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header__submenu submenu-header">
+				<div class="submenu-header__container">
+					<div class="submenu" data-submenu="1">
+						<div class="submenu__nav">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__btn _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="1">
+										Изобразительное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="2">
+										Декоративно-прикладное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="3">
+										Серебро
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="4">
+										Ювелирные изделия и предметы роскоши
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Нумизматика и бонистика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Букинистика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Филателия
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Вино и алкоголь
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Коллекции и предметы коллекционирования
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="1">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="2">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="3">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Другое
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="4">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										4Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										4Современное искусство
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="submenu" data-submenu="2">
+						<div class="submenu__nav">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__btn _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="1">
+										2Изобразительное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="2">
+										2Декоративно-прикладное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="3">
+										2Серебро
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link" data-inparent="4">
+										Ювелирные изделия и предметы роскоши
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Нумизматика и бонистика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Букинистика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Филателия
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Вино и алкоголь
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Коллекции и предметы коллекционирования
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="1">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="2">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										2Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="3">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Современное искусство
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Печатная графика и художественная фотография
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Живопись советского периода
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Зарубежная живопись XVII - XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Художественная бронза и скульптура
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Графика
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Иконы
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Другое
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										3Другое
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="submenu__content" data-insubmenu="4">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<button class="submenu__link submenu__back _icon-ar-sl" type="button">
+										Назад
+									</button>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										4Русская живопись XVIII - нач. XX вв.
+									</a>
+								</li>
+								<li class="submenu__item">
+									<a href="" class="submenu__link">
+										4Современное искусство
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<nav class="catalog__header-breadcrumbs breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+						<li class="breadcrumbs__item"><span class="breadcrumbs__current">Аукционы</span>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="auctions section-bottom">
+				<div class="auctions__container">
+					<h1 class="auctions__title title_h1 title">Аукционы</h1>
+					<div class="auctions__items">
+						<article class="item-auctions" style="background-image:url(img/auction/03.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+						<article class="item-auctions" style="background-image:url(img/auction/04.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+						<article class="item-auctions" style="background-image:url(img/auction/05.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+						<article class="item-auctions" style="background-image:url(img/auction/06.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+						<article class="item-auctions" style="background-image:url(img/auction/03.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+						<article class="item-auctions" style="background-image:url(img/auction/04.jpg);">
+							<a class="stretched-link" href=""></a>
+							<h3 class="item-auctions__title title_h3 title">
+								Аукцион №105
+								Живопись, графика, ДПИ, букинистика
+							</h3>
+							<div class="item-auctions__body">
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										Художники:
+									</div>
+									<div class="item-auctions__text">
+										Маковский Александр Владимирович
+									</div>
+								</div>
+								<div class="item-auctions__block">
+									<div class="item-auctions__label">
+										мастера:
+									</div>
+									<div class="item-auctions__text">
+										Костанди Харлампий Дмитриевич
+									</div>
+								</div>
+							</div>
+							<div class="item-auctions__footer">
+								<time>28 сентября, Суббота, 15:00</time>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="calendar section-bottom">
+				<div class="calendar__container">
+					<h2 class="calendar__title title title_h2">Календарь аукционов</h2>
+					<div class="calendar__wrapper">
+						<div class="calendar__block">
+							<input class="calendar__form" value="" data-datepicker>
+						</div>
+						<div class="calendar__items">
+							<div class="item-calendar">
+								<div class="item-calendar__num">
+									<div class="item-calendar__block">
+										<div class="item-calendar__day">19</div>
+										<div class="item-calendar__text">октября</div>
+										<div class="item-calendar__text _day">четверг</div>
+										<div class="item-calendar__text">15:00</div>
+									</div>
+								</div>
+								<div class="item-calendar__info">
+									<article class="item-auctions" style="background-image:url(img/auction/04.jpg);">
+										<a class="stretched-link" href=""></a>
+										<div class="item-auctions__inner">
+											<h3 class="item-auctions__title title_h3 title">
+												Аукцион №105
+												Живопись, графика, ДПИ, букинистика
+											</h3>
+											<div class="item-auctions__body">
+												<div class="item-auctions__block">
+													<div class="item-auctions__label">
+														Художники:
+													</div>
+													<div class="item-auctions__text">
+														Маковский Александр Владимирович
+													</div>
+												</div>
+												<div class="item-auctions__block">
+													<div class="item-auctions__label">
+														мастера:
+													</div>
+													<div class="item-auctions__text">
+														Костанди Харлампий Дмитриевич
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<div class="item-calendar">
+								<div class="item-calendar__num">
+									<div class="item-calendar__block">
+										<div class="item-calendar__day">19</div>
+										<div class="item-calendar__text">октября</div>
+										<div class="item-calendar__text _day">четверг</div>
+										<div class="item-calendar__text">15:00</div>
+									</div>
+								</div>
+								<div class="item-calendar__info">
+									<article class="item-auctions" style="background-image:url(img/auction/06.jpg);">
+										<a class="stretched-link" href=""></a>
+										<div class="item-auctions__inner">
+											<h3 class="item-auctions__title title_h3 title">
+												Аукцион №105
+												Живопись, графика, ДПИ, букинистика
+											</h3>
+											<div class="item-auctions__body">
+												<div class="item-auctions__block">
+													<div class="item-auctions__label">
+														Художники:
+													</div>
+													<div class="item-auctions__text">
+														Маковский Александр Владимирович
+													</div>
+												</div>
+												<div class="item-auctions__block">
+													<div class="item-auctions__label">
+														мастера:
+													</div>
+													<div class="item-auctions__text">
+														Костанди Харлампий Дмитриевич
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="rules-now">
+				<div class="rules-now__container">
+					<div class="rules-now__action">
+						<h2 class="title title_h2 rules-now__title">Ознакомиться с&nbsp;правилами проведения онлайн-аукциона
+							можно здесь:</h2>
+						<a href="" class="rules-now__btn button button_brown">Ознакомиться с правилами</a>
+					</div>
+					<div class="rules-now__img">
+						<picture><source srcset="img/molot.webp" type="image/webp"><img src="img/molot.png" alt="Image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="support">
+				<div class="support__container">
+					<h2 class="support__title title title_h2">Поможем с оценкой, продажей и&nbsp;покупкой лотов</h2>
+					<form action="" class="form">
+						<div class="form__line">
+							<input class="form__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя">
+						</div>
+						<div class="form__line">
+							<input class="form__input input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="8 (___) ___-___">
+						</div>
+						<div class="form__line">
+							<input class="form__input input" autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Эл. почта">
+						</div>
+						<div class="form__line">
+							<button class="form__button button button_brown" type="submit">Отправить</button>
+						</div>
+						<div class="form__line">
+							<div class="form__checkbox checkbox">
+								<input id="c_" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_" class="checkbox__label">
+									<span class="checkbox__text">Я согласен на обработку моих <span>персональных данных</span></span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__about">
+						<a href="/" class="footer__logo logo">
+							<picture>
+								<source media="(max-width: 767.98px)" srcset="img/logo_fmob.png">
+								<img src="img/logo_f.png" alt="Logo">
+							</picture>
+						</a>
+					</div>
+					<div class="footer__menu">
+						<div class="footer__col">
+							<div class="footer__title">Главная</div>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Аукционы
+									</a></li>
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Галереи
+									</a></li>
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Как продать
+									</a></li>
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Как купить
+									</a></li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<div class="footer__title">О компании</div>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Правила
+									</a></li>
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										О нас
+									</a></li>
+								<li class="footer-menu__item"><a href="" class="footer-menu__link">
+										Контакты
+									</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:+79315332215" class="footer__tel title title_h2">+7 (931) 533-22-15</a>
+						<a href="mailto:info@moscow-auction.ru" class="footer__mail">
+							info@moscow-auction.ru
+						</a>
+						<div class="footer__action">
+							<a href="" class="footer__btn button button_brown">Задать вопрос</a>
+							<a class="footer__wp _icon-wapp" href=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__text">
+						© 2023 ”Московский аукционный дом”
+					</div>
+					<a href="" class="bottom-footer__link">
+						Пользовательское соглашение и политика конфиденциальности
+					</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20231125130122"></script>
+</body>
+
+</html>
